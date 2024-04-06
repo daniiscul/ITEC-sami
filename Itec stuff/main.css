@@ -1,0 +1,95 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.a-i-c {
+  align-items: center;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.f-d-c {
+  flex-direction: column;
+}
+
+nav {
+  justify-content: end;
+  height: 50px;
+  padding-right: 2vw;
+  border-bottom: 0.0625rem solid #e0e0e0;
+}
+
+.profile-pic {
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  width: 2vw;
+  height: 2vw;
+  color: white;
+  font-size: 100%;
+  margin-left: 1.5vw;
+}
+
+.wrapper {
+  padding: 3vw;
+}
+
+.island-div {
+  margin-bottom: 5vh;
+  height: 60px;
+}
+
+.island {
+  width: 200px;
+  height: 30px;
+  background-color: grey;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  font-size: 20px;
+  color: white;
+}
+
+.island:hover {
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.classroom-div {
+  border: 0.0625rem solid #e0e0e0;
+  border-radius: 20px;
+  padding: 5vw 10vw;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 5vh;
+}
+
+.classroom-div p {
+  font-size: 300%;
+  margin: 0;
+}
+
+.bt-wrapper > div {
+  margin: 0 2vw;
+}
+
+.style-1 {
+  height: 100px;
+  width: 200px;
+  border: 0.0625rem solid #e0e0e0;
+  border-radius: 10%;
+}
+
+.style-2 {
+  height: 200px;
+  width: 1fr;
+  font-size: 50px;
+}
