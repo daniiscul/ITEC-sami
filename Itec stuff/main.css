@@ -77,6 +77,10 @@ nav {
   margin: 0;
 }
 
+.bt-wrapper {
+  position: relative;
+}
+
 .bt-wrapper > div {
   margin: 0 2vw;
 }
@@ -89,7 +93,38 @@ nav {
 }
 
 .style-2 {
-  height: 200px;
-  width: 1fr;
+  height: 218px;
   font-size: 50px;
+  flex-direction: column;
+  margin: 0;
+}
+
+.top-arrow {
+  justify-content: center;
+}
+
+.arrow {
+  position: absolute;
+}
+
+.arrow-1 {
+  transform: rotate(40deg);
+  top: 8vh;
+  left: 17.5vw;
+}
+
+.arrow-2 {
+  transform: rotate(-40deg);
+  top: 8vh;
+  left: 22.5vw;
+}
+.arrow-3 {
+  transform: rotate(-315deg);
+  top: 50%;
+  left:52.5%;
+}
+.arrow-4 {
+  transform: rotate(310deg);
+  top: 18vh;
+  left: 17.5vw;
 }
